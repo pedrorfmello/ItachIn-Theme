@@ -17,6 +17,5 @@
 
 .botao__Notificacoes:hover {
     background-color: rgba(243, 243, 243, 0.15);
-    color: black;
     cursor: pointer;
 }
