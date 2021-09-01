@@ -1,0 +1,19 @@
+.cabecalho {
+   /* background: url('../../img/wp8448913-itachi-uchiha-pc-wallpapers.jpg') rgba(26, 24, 45, 0.45);*/
+    background-image:
+    radial-gradient(circle, rgba(2,0,36,0.2) 29%, rgba(25,25,44,0.7486344879748774) 73%, rgba(25,25,44,0.9) 93%),
+    url('../../img/background-topo.jpg');
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: normal;
+
+    height: 45vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}

@@ -1,0 +1,22 @@
+.botoes_Superiores {
+    padding: 17px 0 0 250px;
+}
+
+.botao__Notificacoes {
+    border-style: none;
+    width: 2.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgba(243, 243, 243, 0.05);
+    backdrop-filter: blur(10px);
+    color: #eeeeee;
+    font-size: 15px;
+    
+
+}
+
+.botao__Notificacoes:hover {
+    background-color: rgba(243, 243, 243, 0.15);
+    color: black;
+    cursor: pointer;
+}

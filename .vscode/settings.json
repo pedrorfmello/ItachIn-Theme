@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "README.md": true,
+    "LICENSE": true,
+    ".gitattributes": true
+  }
+}

@@ -1,0 +1,9 @@
+.conteudo {
+    grid-area: conteudo;
+}
+
+.fundo__Universal {
+    background: linear-gradient(45deg, rgba(60,55,95,0.05) 35%, rgba(215,211,244,0.15) 150%);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}

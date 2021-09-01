@@ -1,0 +1,27 @@
+.perfil__Superior {
+    display: grid;
+}
+
+.foto__Perfil {
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 0.85rem;
+    margin-left: 60px;
+    background-image: url('../../img/profile-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    cursor: pointer;
+
+}
+
+.foto__Perfil-texto {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	color: #eeeeee;
+    font-size: 0.8rem;
+
+}
