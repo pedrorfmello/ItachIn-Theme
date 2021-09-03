@@ -1,0 +1,90 @@
+.grupos {
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.05);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.grupos h2 {
+    color: #cecece;
+    font-family: 'Alef', Open Sans;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+.grupos_Itens {
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.05);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 6px;
+    padding: .3rem 0 .3rem 1rem;
+}
+
+.grupos_Itens:hover {
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.08);
+    cursor: pointer;
+
+}
+
+.grupos_Itens:hover a:nth-child(1) {
+    color: #ffffff;
+}
+
+.grupos_Imagens-primeiro {
+    background-image: url('../../img/akatsuki.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.grupos_Imagens-segundo {
+    background-image: url('../../img/uchiha.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.grupos_Imagens-terceiro {
+    background-image: url('../../img/nukenin.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.grupos_Texto {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.grupos_Nome {
+    color: #cecece;
+    font-family: 'Alef', Open Sans;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.grupos_Membros {
+    color: #696969;
+    font-family: 'Alef', Open Sans;
+    font-size: 9px;
+    font-weight: 400;
+    margin-top: .2rem;
+    text-decoration: none;
+}
