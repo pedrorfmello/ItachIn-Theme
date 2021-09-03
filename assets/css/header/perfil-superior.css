@@ -1,27 +1,33 @@
 .perfil__Superior {
-    display: grid;
+    display: flex;
 }
 
 .foto__Perfil {
-    border-style: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    margin-top: 0.85rem;
-    margin-left: 60px;
     background-image: url('../../img/profile-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75px;
+    border-radius: 5px;
+    border-style: none;
     cursor: pointer;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 0.85rem;
+    width: 40px;
 
 }
 
 .foto__Perfil-texto {
-	font-family: Arial, sans-serif;
+    align-self: flex-end;
+	color: #cecece;
+    margin: 0 0 19px 10px;
+    font-family: 'Alef', sans-serif;
+    font-size: 0.8rem;
 	font-weight: normal;
 	text-decoration: none;
-	color: #eeeeee;
-    font-size: 0.8rem;
 
+}
+
+.foto__Perfil-texto:hover {
+    color: #ffffff;
 }

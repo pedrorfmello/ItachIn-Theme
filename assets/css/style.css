@@ -1,9 +1,15 @@
+.bode {
+    align-content: center;
+}
+
 .conteudo {
+    align-content: center;
     grid-area: conteudo;
+    max-width: 1280px;
 }
 
 .fundo__Universal {
-    background: linear-gradient(45deg, rgba(60,55,95,0.05) 35%, rgba(215,211,244,0.15) 150%);
     backdrop-filter: blur(10px);
+    background: linear-gradient(45deg, rgba(60,55,95,0.05) 35%, rgba(215,211,244,0.15) 150%);
     border-radius: 15px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <script src="https://kit.fontawesome.com/0329dd71a0.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
@@ -9,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header/cabecalho.css">
@@ -17,21 +20,21 @@
     <link rel="stylesheet" href="./assets/css/header/botoes-superioes.css">
     <link rel="stylesheet" href="./assets/css/header/perfil-superior.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/main/feed.css">
     <link rel="stylesheet" href="./assets/css/main/conteudo.css">
-    <link rel="stylesheet" href="./assets/css/main/postagens-feed.css">
+    <link rel="stylesheet" href="./assets/css/sidebar-esquerdo/navbar-esquerdo.css">
+    <link rel="stylesheet" href="./assets/css/sidebar-esquerdo/views-e-connections.css">
 
     <title>Linkedin</title>
 </head>
 
-<body style="background-color: #1e1c31;">
+<body>
 
 
     <header class="cabecalho">
         <div class="menu__cabecalho">
             <img src="./assets/img/logo-itachin.svg" alt="Logo Itachin" class="logo__itachin">
             <div class="pesquisar">
-                <input type="text"  placeholder="Search" class="pesquisar__input"></div>
+                <input type="text" placeholder="Search" class="pesquisar__input"></div>
             <div class="botoes_Superiores">
                 <button class="botao__Notificacoes">
                     <i class="far fa-bell"></i>
@@ -43,52 +46,74 @@
             <div class="perfil_Superior">
                 <button class="foto__Perfil"></button>
                 <a href="#" class="foto__Perfil-texto">Itachi Uchiha &#9660;</a>
-            </div>          
+            </div>
         </div>
     </header>
 
+    <main class="conteudoPrincipal">
+        <div class="container">
 
 
-    <main class="conteudo">
-        <section class="feed">
-            <div class="feed__Grid">
-                <div class="postagens__Feed fundo__Universal">
-                    <div class="top__Skills-cabecalho">
-                        <h2 class = "top__Skills-titulo">Top <span class="top__Skills-tituloCor">skills</span></h2>
-                        <button class = "top__Skills-viewAll">View All</button>                    
-                    </div>
-                    <div class="perfect__Susanoo">
-                        <div class = "perfect__Susanoo-imagem">
-                            <img src="./assets/img/susanoo.png" alt="" class="susanoo">
-                        </div>
-                        <div class = "perfect__Susanoo-texto">
-                            <div class="perfect__Susanoo-estrelas"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                            <div class="perfect__Susanoo-estrelas">
-                                <h3 class="perfect__Susanoo-titulo">Perfect Susanoo</h3>
+            <section class="sidebar_Esquerdo">
+
+
+                <div class="sidebar_Fundo">
+                    <nav class="sidebar_Nav">
+                        <div class="opcoes_Navegacao">
+                            <img src="./assets/img/logo-itachin.svg" alt="Logo Itachin" class="logo__itachin-sidebar">
+                            <button class="foto__Perfil-sidebar"></button>
+                            <h3>Itachi Uchiha</h3>
+                            <h4>Nukenin at <span class="Bolder">Akatsuki</span></h4>
+                            <div class="sidebar_Menu">
+                                <div class="sidebar_Menu-item">
+                                    <i class="fas fa-home"></i>
+                                    <a href="#">Home</a>
+                                </div>
+                                <div class="sidebar_Menu-item">
+                                    <i class="fas fa-network-wired"></i>
+                                    <a href="#">My Network</a>
+                                </div>
+                                <div class="sidebar_Menu-item">
+                                    <i class="fas fa-suitcase"></i>
+                                    <a href="#">Jobs</a>
+                                </div>
+                                <div class="sidebar_Menu-item">
+                                    <i class="far fa-comment-alt"></i>
+                                    <a href="#">Messaging</a>
+                                </div>
+                                <div class="sidebar_Menu-item">
+                                    <i class="far fa-bell"></i>
+                                    <a href="#">Notifications</a>
+                                </div>
                             </div>
                         </div>
+                    </nav>
+                </div>
+
+                <div class="estatisticas">
+                    <div class="profile_Views">
+                        <a href="#">27</a>
+                        <h3>Profile Views</h3>
                     </div>
-                    <div class="perfect__Susanoo2">
-                        
+
+                    <div class="connections">
+                        <a href="#">430</a>
+                        <h3>Connections</h3>
                     </div>
                 </div>
-                <article class="postagens__Feed fundo__Universal">
 
-                </article>
-                <article class="postagens__Feed fundo__Universal">
+            </section>
+            <nav class="feed">
+                <h3>ITACHI SUSANOO</h3>
+             </nav>
+            <section class="nav_Direito">
+                <h3>ITACHI SUSANOO</h3>
+            </section>
 
-                </article>
-                <article class="postagens__Feed fundo__Universal">
+        </div>
 
-                </article>
-                <article class="postagens__Feed fundo__Universal">
-
-                </article>
-            </div>
-        </section>
     </main>
-    
 
 </body>
-</html>
 
+</html>

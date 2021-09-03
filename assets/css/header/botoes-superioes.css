@@ -3,19 +3,20 @@
 }
 
 .botao__Notificacoes {
-    border-style: none;
-    width: 2.5rem;
-    height: 2rem;
-    border-radius: 5px;
     background-color: rgba(243, 243, 243, 0.05);
     backdrop-filter: blur(10px);
-    color: #eeeeee;
+    border-style: none;
+    border-radius: 5px;
+    color: #cecece;
     font-size: 15px;
+    height: 2rem;
+    width: 2.5rem;
     
 
 }
 
 .botao__Notificacoes:hover {
     background-color: rgba(243, 243, 243, 0.15);
+    color: #ffffff;
     cursor: pointer;
 }

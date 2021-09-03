@@ -1,3 +1,32 @@
+body {
+	background: linear-gradient(0deg, rgba(15,13,37,1) 0%, rgba(39,36,62,1) 100%);
+	font-family: 'Roboto';
+    margin-bottom: 500px;
+}
+
+.conteudoPrincipal {
+    margin-top: 20px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+	margin: 0 auto;
+	width: 94%;
+}
+
 .feed {
+    background-color: #163244;
     grid-area: feed;
+    width: 60%;
+}
+
+.nav_Esquerdo {
+    background-color: blueviolet;
+    width: 20%;
+}
+
+.nav_Direito {
+    background-color: chartreuse;
+    width: 20%;
 }
