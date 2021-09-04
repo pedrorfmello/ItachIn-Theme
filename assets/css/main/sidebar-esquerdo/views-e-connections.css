@@ -8,6 +8,7 @@
 .profile_Views {
     backdrop-filter: blur(15px);
     background: linear-gradient(45deg, rgba(200,200,200,0.0) 10%, rgba(243,243,243,0.1) 150%);
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     grid-column: 1;
     padding: 15px;
@@ -39,6 +40,7 @@
 .connections {
     backdrop-filter: blur(15px);
     background: linear-gradient(45deg, rgba(200,200,200,0.0) 10%, rgba(243,243,243,0.1) 150%);
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     grid-column: 2;
     padding: 15px;

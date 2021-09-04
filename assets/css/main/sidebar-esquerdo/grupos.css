@@ -1,6 +1,7 @@
 .grupos {
     backdrop-filter: blur(15px);
-    background-color: rgba(243, 243, 243, 0.05);
+    background-color: rgba(87, 82, 126, 0.15);
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     margin-top: 30px;
     padding: 15px;
@@ -37,7 +38,7 @@
 }
 
 .grupos_Imagens-primeiro {
-    background-image: url('../../img/akatsuki.jpg');
+    background-image: url('../../../img/akatsuki.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,7 +48,7 @@
 }
 
 .grupos_Imagens-segundo {
-    background-image: url('../../img/uchiha.jpg');
+    background-image: url('../../../img/uchiha.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,7 +58,7 @@
 }
 
 .grupos_Imagens-terceiro {
-    background-image: url('../../img/nukenin.jpg');
+    background-image: url('../../../img/nukenin.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -6,11 +6,11 @@
 }
 
 .sidebar_Fundo {background: linear-gradient(45deg, rgba(252,43,82,0.5) -20%, rgba(243,243,243,0.05) 25%, rgba(243,243,243,0.05) 80%, rgba(252,43,82,0.5) 120%);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
     border-radius: 20px;
     padding-left: 1rem;
     padding-right: 1rem;
-    box-shadow: 3px 3px 10px 0 rgba(39, 39, 39, 0.15);
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
 .sidebar_Nav {
@@ -59,7 +59,7 @@
 }
 
 .foto__Perfil-sidebar {
-    background-image: url('../../img/profile-img.jpg');
+    background-image: url('../../../img/profile-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 120px;
@@ -105,7 +105,7 @@
 }
 
 .sidebar_Menu-item a {
-    color: #cecece;
+    color: #afafaf;
     font-family: 'Alef', sans-serif;
     font-size: 10px;
     font-weight: 500;
