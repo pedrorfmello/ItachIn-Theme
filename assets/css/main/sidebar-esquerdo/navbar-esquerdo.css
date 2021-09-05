@@ -5,7 +5,7 @@
     padding-right: 2rem;
 }
 
-.sidebar_Fundo {background: linear-gradient(45deg, rgba(252,43,82,0.5) -20%, rgba(243,243,243,0.05) 25%, rgba(243,243,243,0.05) 80%, rgba(252,43,82,0.5) 120%);
+.sidebar_Fundo {background: linear-gradient(45deg, rgba(252,43,82,0.5) -20%, rgba(30, 26, 64, 0.15) 25%, rgba(30, 26, 64, 0.15) 80%, rgba(252,43,82,0.5) 120%);
     backdrop-filter: blur(20px);
     border-radius: 20px;
     padding-left: 1rem;
