@@ -1,0 +1,24 @@
+.nav_Direito {
+    margin-top: -100px;
+    padding-left: 1.5rem;
+
+}
+
+.jobs {    
+    backdrop-filter: blur(20px);
+    background: linear-gradient(48deg, rgba(30,26,64,0.1) 60%, rgba(106,99,167,0.15) 100%);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.jobs a {
+    color: #ffffff;
+    font-family: 'Alef', Open Sans;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-decoration: none;
+}

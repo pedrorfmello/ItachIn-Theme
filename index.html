@@ -9,14 +9,15 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fotos-perfil.css">
 
     <link rel="stylesheet" href="./assets/css/header/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/header/logo-itachin.css">
@@ -29,10 +30,20 @@
     <link rel="stylesheet" href="./assets/css/main/feed/feed.css">
     <link rel="stylesheet" href="./assets/css/main/feed/top-skills.css">
     <link rel="stylesheet" href="./assets/css/main/feed/connections.css">
+    <link rel="stylesheet" href="./assets/css/main/feed/recent-search.css">
+    <link rel="stylesheet" href="./assets/css/main/feed/pending-invitations.css">
+    <link rel="stylesheet" href="./assets/css/main/feed/biography.css">
 
     <link rel="stylesheet" href="./assets/css/main/sidebar-esquerdo/navbar-esquerdo.css">
     <link rel="stylesheet" href="./assets/css/main/sidebar-esquerdo/views-e-connections.css">
     <link rel="stylesheet" href="./assets/css/main/sidebar-esquerdo/grupos.css">
+
+    <link rel="stylesheet" href="./assets/css/main/sidebar-direito/jobs.css">
+    <link rel="stylesheet" href="./assets/css/main/sidebar-direito/jobs-itens.css">
+    <link rel="stylesheet" href="./assets/css/main/sidebar-direito/chat.css">
+
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+
 
     <title>Linkedin</title>
 </head>
@@ -75,7 +86,7 @@
                             <h3>Itachi Uchiha</h3>
                             <h4>Nukenin at <span class="Bolder">Akatsuki</span></h4>
                             <div class="sidebar_Menu">
-                                <div class="sidebar_Menu-item">
+                                <div class="sidebar_Menu-item sidebar_Menu-item-active">
                                     <i class="fas fa-home"></i>
                                     <a href="#">Home</a>
                                 </div>
@@ -143,8 +154,8 @@
             <section class="feed">
                 <div class="top_Skills">
                     <div class="feed_Cabecalho">
-                        <a href="$">Top<span class="titulo_Cor-dupla"> Skills</span></a>
-                        <a href="$">View All</a>
+                        <a href="$" class="titulo_Abas">Top<span class="titulo_Abas-corDupla"> Skills</span></a>
+                        <a href="$" class="botao_pressionado">View All</a>
                     </div>
                     <div class="perfect_Susanoo">
 
@@ -184,8 +195,8 @@
                 </div>
                 <div class="connections_Container">
                     <div class="connections_Cabecalho">
-                        <a href="#">Connections</a>
-                        <a href="#">View All</a>
+                        <a href="#" class="titulo_Abas">Connections</a>
+                        <a href="#" class="botao_pressionado">View All</a>
                     </div>
                     <div class="connections_List">
                         <div class="connections_List-itens">
@@ -232,17 +243,181 @@
                         </div>
                     </div>
                 </div>
+                <div class="pending_Invitations">
+                    <div class="invitations_Cabecalho">
+                        <a href="#" class="titulo_Abas">Pending Invitations</a>
+                    </div>
+                    <div class="invitations_Cards">
+                        <div class="invitations">
+                            <div class="invitations_Image kakashi"></div>
+                            <div class="invitations_Text">
+                                <h4>Hatake Kakashi</h4>
+                                <h5>Ex-Hokage of <span class="Bolder">Konoha</span></h5>
+                            </div>
+                            <div class="invitations_AccDen">
+                                    <i class="fas fa-check"></i>
+                                    <i class="fas fa-times"></i>
+                            </div>
+                        </div>
+                        <div class="invitations">
+                            <div class="invitations_Image orochimaru"></div>
+                            <div class="invitations_Text">
+                                <h4>Orochimaru</h4>
+                                <h5>Nukenin at <span class="Bolder">Akatsuki</span></h5>
+                            </div>
+                            <div class="invitations_AccDen">
+                                    <i class="fas fa-check"></i>
+                                    <i class="fas fa-times"></i>
+                            </div>
+                        </div>
+                        <div class="invitations">
+                            <div class="invitations_Image naruto"></div>
+                            <div class="invitations_Text">
+                                <h4>Uzumaki Naruto</h4>
+                                <h5>Hokage of <span class="Bolder">Konoha</span></h5>
+                            </div>
+                            <div class="invitations_AccDen">
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-times"></i>
+                            </div>
+                        </div>
+                    </div>    
+                    <a href="#" class="botao_pressionado">View All</a>                
+                </div>
                 <div class="recent_Search">
-                    
+                    <div class="recent_Search-cabecalho">
+                        <a href="#" class="titulo_Abas">Recent <span class="titulo_Abas-corDupla">Search</span></a>
+                    </div>
+                    <div class="recent_Search-conteudo">
+                        <ul class="recent_Search-conteudoLista">
+                            <li class="recent_Search-conteudoItem"><span class="titulo_Abas-corDupla">#</span>SasukeUchiha</li>
+                            <li class="recent_Search-conteudoItem"><span class="titulo_Abas-corDupla">#</span>WhoIsTobi?</li>
+                            <li class="recent_Search-conteudoItem"><span class="titulo_Abas-corDupla">#</span>Fugaku</li>
+                            <li class="recent_Search-conteudoItem"><span class="titulo_Abas-corDupla">#</span>how_take_care_of_younger_brother</li>
+                            <li class="recent_Search-conteudoItem"><span class="titulo_Abas-corDupla">#</span>OrochimaruMale?</li>
+                            <li class="recent_Search-conteudoItem"><span class="titulo_Abas-corDupla">#</span>InfiniteTsukuyomi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="biography">
+                    <div class="biography_Citation-commas">
+                        <h2>,,</h2>
+                    </div>
+                    <div class="biography_Citation">
+                        <h2>it is foolish to fear what we have yet to see and know.</h2>
+                        <h3>-Uchiha Itachi</h3>
+                    </div>
+                    <div class="biography_Text">
+                        <h3>Itachi Uchiha (うちはイタチ, Uchiha Itachi) foi um prodígio do clã Uchiha de Konohagakure. Ele se tornou um criminoso internacional depois de assassinar seu clã inteiro, poupando apenas seu irmão mais novo, Sasuke. Ele se juntou a Akatsuki, onde ele entrou em frequentes conflitos com Konoha e seus ninjas, incluindo Sasuke, que procurou vingar sua família. Depois de morrer durante uma batalha com Sasuke, as motivações de Itachi foram reveladas serem mais complicadas do que pareciam ele só queria proteger seu irmão e a vila, permanecendo um shinobi leal a Konohagakure até o fim. <br><br> Desde a tenra idade, Itachi era tranquilo e perspicaz. Ele viveu à distância, observando os indivíduos e ideias sem se envolver diretamente para que ele pudesse entendê-los completamente.[8] Embora esta abordagem o impedisse de se tornar próximo das outras pessoas, isso lhe permitiu pensar e agir sem preconceitos ou preconcepções, ao invés de avaliar as coisas estritamente em seus próprios méritos.</h3>
+                    </div>
+                    <div class="biography_Img">
+                        <!-- <img src="./assets/img/itachi.png" alt=""> -->
+                    </div>
                 </div>
             </section>
             <section class="nav_Direito">
-                <h3>ITACHI SUSANsssOO</h3>
+                <div class="jobs">
+                    <a href="#">Jobs For You</a>
+                    <div class="jobs_Itens">
+                        <div class="jobs_Itens-img mizukage"></div>
+                        <div class="jobs_Text">
+                            <h3>Kill the third Mizukage</h3>
+                            <h4>9 readers</h4>
+                        </div>
+                    </div>
+                    <div class="jobs_Itens">
+                        <div class="jobs_Itens-img suna"></div>
+                        <div class="jobs_Text">
+                            <h3>Infiltration mission - Village Hidden by Sand</h3>
+                            <h4>7 readers</h4>
+                        </div>
+                    </div>
+                    <div class="jobs_Itens">
+                        <div class="jobs_Itens-img yonbi"></div>
+                        <div class="jobs_Text">
+                            <h3>Capture the four tails</h3>
+                            <h4>6 readers</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="search_Chat">
+                        <input type="search" placeholder="Search messages" class="search_Box">
+                        <button><i class="far fa-edit"></i></button>
+                    </div>
+
+
+                    
+                    <div class="chat_Messages">
+                        <div class="chat_Messages-img orochimaru">
+                            <div class="online"></div>
+                        </div>
+                        <div class="chat_Messages-info">
+                            <h5>Online</h5>
+                            <h3>Orochimaru</h3>
+                            <h4>i want your body &#128013</h4>
+                        </div>
+                    </div>
+                    <div class="chat_Messages">
+                        <div class="chat_Messages-img naruto">
+                            <div class="online"></div>
+                        </div>
+                        <div class="chat_Messages-info">
+                            <h5>Online</h5>
+                            <h3>Uzumaki Naruto</h3>
+                            <h4>i want yout body</h4>
+                        </div>
+                    </div>
+                    <div class="chat_Messages">
+                        <div class="chat_Messages-img pain">
+                            
+                        </div>
+                        <div class="chat_Messages-info">
+                            <h5>5 minutes ago</h5>
+                            <h3>Pain</h3>
+                            <h4>Pain</h4>
+                        </div>
+                    </div>
+                    <div class="chat_Messages">
+                        <div class="chat_Messages-img deidara">
+
+                        </div>
+                        <div class="chat_Messages-info">
+                            <h5>2 days ago</h5>
+                            <h3>Tsukuri Deidara</h3>
+                            <h4>i will still defeat you</h4>
+                        </div>
+                    </div>
+                    <div class="chat_Messages">
+                        <div class="chat_Messages-img kisame">
+
+                        </div>
+                        <div class="chat_Messages-info">
+                            <h5>1 week ago</h5>
+                            <h3>Hoshigaki Kisame</h3>
+                            <h4>where are you?</h4>
+                        </div>
+                    </div>
+                    <div class="chat_Messages">
+                        <div class="chat_Messages-img danzo">
+                            
+                        </div>
+                        <div class="chat_Messages-info">
+                            <h5>1 year ago</h5>
+                            <h3>Shimura Danzo</h3>
+                            <h4>Those are your orders</h4>
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </div>
 
     </main>
+
+    <footer class="footer">
+        <h3>Code by Pedro Mello<br><br>Design by Daniel Snows</h3>
+    </footer>
 
 </body>
 

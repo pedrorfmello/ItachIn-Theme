@@ -1,0 +1,48 @@
+.kakashi {
+    background-image: url('../img/kakashi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orochimaru {
+    background-image: url('../img/orochimaru.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.naruto {
+    background-image: url('../img/naruto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pain {
+    background-image: url('../img/pain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kisame {
+    background-image: url('../img/kisame.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.danzo {
+    background-image: url('../img/danzo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deidara {
+    background-image: url('../img/deidara.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

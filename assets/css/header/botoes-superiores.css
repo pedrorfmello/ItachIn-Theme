@@ -11,8 +11,12 @@
     font-size: 15px;
     height: 2rem;
     width: 2.5rem;
+    margin-right: 1.5rem;
     
+}
 
+.botao__Notificacoes:nth-child(1) {
+    margin-right: 2rem;
 }
 
 .botao__Notificacoes:hover {

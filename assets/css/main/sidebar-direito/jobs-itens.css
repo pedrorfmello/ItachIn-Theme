@@ -1,0 +1,51 @@
+.jobs_Itens {
+    background-color: rgba(243, 243, 243, 0.07);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 10px;
+    padding: .5rem .5rem 1rem .5rem;
+}
+
+.jobs_Itens-img {
+    background-color: aqua;
+    border-radius: 8px;
+    grid-column: 1 / 2;
+    height: 2rem;
+    margin-right: .5rem;
+    width: 2rem;
+}
+
+.mizukage {
+    background-image: url('../../../img/mizukage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.suna {
+    background-image: url('../../../img/suna.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yonbi {
+    background-image: url('../../../img/yonbi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jobs_Text h3 {
+    color: white;
+    font-family: 'Alef', Open Sans;
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+
+.jobs_Text h4 {
+    color: #c6c6c6;
+    font-family: 'Alef', Open Sans;
+    font-size: .6rem;
+}

@@ -1,6 +1,6 @@
 .grupos {
     backdrop-filter: blur(15px);
-    background-color: rgba(87, 82, 126, 0.15);
+    background: linear-gradient(48deg, rgba(30,26,64,0.1) 60%, rgba(106,99,167,0.15) 100%);
     box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     margin-top: 30px;

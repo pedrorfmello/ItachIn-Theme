@@ -1,0 +1,91 @@
+.chat {
+    backdrop-filter: blur(20px);
+    background: linear-gradient(48deg, rgba(30,26,64,0.1) 60%, rgba(106,99,167,0.15) 100%);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 1.5rem 1rem .5rem 1rem;
+}
+
+.search_Chat {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #c6c6c628;
+}
+
+.search_Box {
+    padding: .5rem 0 .5rem 1rem;
+    width: calc(100% - 2rem - 10px);
+    border-radius: 8px;
+    border: none;
+    font-size: .7rem;
+}
+
+.search_Chat button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 8px;
+    border: none;
+    padding: 2px;
+    background-color: #fc2b52;
+    margin-left: 10px;
+}
+
+.search_Chat button > i {
+    color: white;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.chat_Messages {
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid #c6c6c628;
+}
+
+.chat_Messages:last-child {
+    border-bottom: none;
+}
+
+.chat_Messages-img {
+    background-color: #fc2b52;
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.chat_Messages-info {
+    margin-left: 10px;
+}
+
+.chat_Messages-info h5 {
+    color: grey;
+    font-size: .55rem;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.chat_Messages-info h3 {
+    color: white;
+    font-size: .85rem;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.chat_Messages-info h4 {
+    color: #c6c6c6;
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+.online {
+    height: .5rem;
+    width: .5rem;
+    border-radius: 100%;
+    background-color: greenyellow;
+}

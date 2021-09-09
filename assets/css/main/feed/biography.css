@@ -1,0 +1,72 @@
+.biography {
+    background: linear-gradient(48deg, rgba(30,26,64,0.1) 60%, rgba(106,99,167,0.15) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    max-height: 280px;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    margin-top: -95px;
+
+}
+
+.biography_Citation-commas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    letter-spacing: -12px;
+    margin-right: 15px;
+    transform: scale(-1,-1);
+}
+
+.biography_Citation-commas h2 {
+    align-self: flex-start;
+    color: #fc2b52;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 10rem;
+}
+
+.biography_Citation {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    line-height: 28px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    width: 14rem;
+}
+
+.biography_Citation h3 {
+    color: #c6c6c6;
+    font-size: .6rem;
+    margin-top: 1.5rem;
+    text-transform: capitalize;
+}
+
+.biography_Text {
+    color: #c6c6c6;
+    font-size: .8rem;
+    font-family: 'Alef';
+    line-height: 16px;
+    width: 40%;
+}
+
+.biography_Img {
+    position: relative;
+    width: 30%;
+    height: 150%;
+    background-image: url('../../../img/itachi.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -45%;
+}
+
+/* .biography_Img img{
+    margin-top: -110px;
+    position: absolute;
+    width: 30%;
+    
+} */

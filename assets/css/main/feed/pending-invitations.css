@@ -1,0 +1,114 @@
+.pending_Invitations {
+    background: linear-gradient(48deg, rgba(30,26,64,0.1) 60%, rgba(106,99,167,0.15) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    height: max-content;
+    margin: -160px 0 0 0;
+    padding: 1.5rem;
+
+}
+
+.invitations_Cabecalho {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.invitations_Cards {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.invitations {
+    background-color: rgba(243, 243, 243, 0.07);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.invitations_Image {
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.invitations_Image:hover {
+    cursor: pointer;
+}
+
+.kakashi {
+    background-image: url('../../../img/kakashi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orochimaru {
+    background-image: url('../../../img/orochimaru.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.naruto {
+    background-image: url('../../../img/naruto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.invitations_Text {
+    margin: auto 0 auto 10px;
+    font-family: 'Alef', Open Sans;
+}
+
+.invitations_Text h4 {
+    color: white;
+    font-size: .8rem;
+}
+
+.invitations_Text h5 {
+    color: #afafaf;
+    font-size: .65rem;
+    margin-top: 5px;
+}
+
+.pending_Invitations a {
+    width: max-content;
+
+}
+
+.invitations_AccDen {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    margin: auto 0 auto auto;
+}
+
+.invitations_AccDen i {
+    text-align: center;
+    background-color: rgba(136, 144, 255, 0.1);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+
+.invitations_AccDen i:nth-child(1) {
+    color: rgb(50, 205, 120);
+}
+
+.invitations_AccDen i:nth-child(2) {
+    color: rgb(212, 56, 56);
+}
+
+.invitations_AccDen i:hover {
+    background-color: rgba(243, 243, 243, 0.1);
+    cursor: pointer;
+}

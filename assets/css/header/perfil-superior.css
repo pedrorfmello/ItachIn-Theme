@@ -1,5 +1,6 @@
-.perfil__Superior {
+.perfil_Superior {
     display: flex;
+    align-self: center;
 }
 
 .foto__Perfil {
@@ -12,16 +13,14 @@
     box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.25);
     cursor: pointer;
     height: 40px;
-    margin-left: 60px;
-    margin-top: 0.85rem;
+    margin: auto 0 auto 30px;
     width: 40px;
 
 }
 
 .foto__Perfil-texto {
-    align-self: flex-end;
 	color: #cecece;
-    margin: 0 0 19px 10px;
+    margin: auto 0 auto 10px;
     font-family: 'Alef', sans-serif;
     font-size: 0.8rem;
 	font-weight: normal;

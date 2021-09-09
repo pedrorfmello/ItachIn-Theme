@@ -1,7 +1,6 @@
 body {
 	background: linear-gradient(0deg, rgba(15,13,37,1) 0%, rgba(39,36,62,1) 100%);
 	font-family: 'Roboto';
-    margin-bottom: 500px;
 }
 
 .conteudoPrincipal {
@@ -23,6 +22,36 @@ body {
 }
 
 .nav_Direito {
-    background-color: chartreuse;
     width: 20%;
+}
+
+.titulo_Abas {
+    color: #ffffff;
+    font-family: 'Alef', Open Sans;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.titulo_Abas-corDupla {
+    color: #fc2b52;
+    font-weight: 700;
+}
+
+.botao_pressionado {
+    border: 1px solid rgba(243, 243, 243, 0.3);
+    border-radius: 10px;
+    color: #cecece;
+    font-family: 'Alef', Open Sans;
+    font-size: .7rem;
+    font-weight: 700;
+    padding: .6rem 1rem .6rem 1rem;
+    text-decoration: none;
+}
+
+.botao_pressionado:hover {
+    background-color: rgba(243, 243, 243, 0.05);
+    backdrop-filter: blur(10px);
+    color: white;
 }

@@ -1,5 +1,5 @@
 .top_Skills {
-    background-color: rgba(30, 26, 64, 0.15);
+    background: linear-gradient(48deg, rgba(30,26,64,0.1) 60%, rgba(106,99,167,0.2) 100%);
     backdrop-filter: blur(20px);
     border-radius: 20px;
     box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
@@ -9,6 +9,8 @@
     height: max-content;
     margin: -80px 0 0 0;
     padding: 1.5rem;
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
 }
 
 .feed_Cabecalho {
@@ -21,36 +23,13 @@
     width: 100%;
 }
 
-.feed_Cabecalho a {
+.feed_Cabecalho a:nth-child(1) {
     color: #ffffff;
     font-family: 'Alef', Open Sans;
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
 
-}
-
-.feed_Cabecalho a:nth-child(2) {
-    border: 1px solid rgba(243, 243, 243, 0.3);
-    border-radius: 10px;
-    color: #cecece;
-    font-family: 'Alef', Open Sans;
-    font-size: .7rem;
-    padding: .6rem 1rem .6rem 1rem;
-
-}
-
-.feed_Cabecalho a:nth-child(2):hover {
-    background-color: rgba(243, 243, 243, 0.05);
-    backdrop-filter: blur(10px);
-    color: white;
-    
-}
-
-.titulo_Cor-dupla {
-    color: #fc2b52;
-    font-family: 'Alef', Open Sans;
-    font-weight: 700;
 }
 
 .perfect_Susanoo {
